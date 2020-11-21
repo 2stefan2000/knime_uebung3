@@ -18,69 +18,69 @@
                 "nrfails": 0,
                 "exectime": 838,
                 "nrcreated": 0,
-                "successor": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer",
-                "nrexecs": 52,
-                "nrfails": 0,
-                "exectime": 1337,
-                "nrcreated": 0,
                 "successor": "org.knime.base.node.stats.outlier.handler.NumericOutliersNodeFactory#Numeric Outliers"
             },
             {
-                "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.learner.RegressionTreeLearnerNodeFactory#Simple Regression Tree Learner",
-                "nrexecs": 26,
+                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer",
+                "nrexecs": 54,
                 "nrfails": 0,
-                "exectime": 3627,
+                "exectime": 1392,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.regression.RandomForestRegressionLearnerNodeFactory#Random Forest Learner (Regression)"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.learner.RegressionTreeLearnerNodeFactory#Simple Regression Tree Learner",
+                "nrexecs": 27,
+                "nrfails": 0,
+                "exectime": 3823,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.predictor.RegressionTreePredictorNodeFactory#Simple Regression Tree Predictor",
-                "nrexecs": 26,
+                "nrexecs": 27,
                 "nrfails": 0,
-                "exectime": 3235,
+                "exectime": 3446,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory#Numeric Scorer",
-                "nrexecs": 80,
+                "nrexecs": 83,
                 "nrfails": 0,
-                "exectime": 365,
+                "exectime": 402,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner",
-                "nrexecs": 26,
+                "nrexecs": 27,
                 "nrfails": 3,
-                "exectime": 4984,
+                "exectime": 5209,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.regression.RandomForestRegressionLearnerNodeFactory#Random Forest Learner (Regression)",
-                "nrexecs": 28,
+                "nrexecs": 29,
                 "nrfails": 0,
-                "exectime": 10934,
+                "exectime": 11487,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeFactory2#Regression Predictor",
-                "nrexecs": 26,
+                "nrexecs": 27,
                 "nrfails": 0,
-                "exectime": 2740,
+                "exectime": 2816,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.treeensemble2.node.randomforest.predictor.regression.RandomForestRegressionPredictorNodeFactory#Random Forest Predictor (Regression)",
-                "nrexecs": 28,
+                "nrexecs": 29,
                 "nrfails": 0,
-                "exectime": 2388,
+                "exectime": 2491,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
@@ -102,17 +102,41 @@
             },
             {
                 "id": "org.knime.base.node.stats.outlier.handler.NumericOutliersNodeFactory#Numeric Outliers",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 273,
+                "exectime": 437,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.regression.RandomForestRegressionLearnerNodeFactory#Random Forest Learner (Regression)"
             },
             {
                 "id": "org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory#Scatter Matrix (local)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 20,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 306,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.definition.apply.FilterApplyNodeFactory#Filter Apply",
                 "nrexecs": 0,
                 "nrfails": 0,
                 "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 8,
                 "nrcreated": 1,
                 "successor": "n/a"
             }
@@ -122,14 +146,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 13482855,
+    "uptime": 14425223,
     "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 13482855,
+    "timeSinceLastStart": 14425223,
     "crashes": 0,
     "properlyShutDown": false
 }

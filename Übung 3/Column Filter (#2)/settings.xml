@@ -11,8 +11,8 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="Overall Qual"/>
-<entry key="1" type="xstring" value="Gr Liv Area"/>
-<entry key="2" type="xstring" value="Garage Cars"/>
+<entry key="1" type="xstring" value="Year Built"/>
+<entry key="2" type="xstring" value="Gr Liv Area"/>
 <entry key="3" type="xstring" value="SalePrice"/>
 </config>
 <config key="excluded_names">
@@ -35,47 +35,47 @@
 <entry key="15" type="xstring" value="Bldg Type"/>
 <entry key="16" type="xstring" value="House Style"/>
 <entry key="17" type="xstring" value="Overall Cond"/>
-<entry key="18" type="xstring" value="Year Built"/>
-<entry key="19" type="xstring" value="Year Remod/Add"/>
-<entry key="20" type="xstring" value="Roof Style"/>
-<entry key="21" type="xstring" value="Roof Matl"/>
-<entry key="22" type="xstring" value="Exterior 1st"/>
-<entry key="23" type="xstring" value="Exterior 2nd"/>
-<entry key="24" type="xstring" value="Mas Vnr Type"/>
-<entry key="25" type="xstring" value="Mas Vnr Area"/>
-<entry key="26" type="xstring" value="Exter Qual"/>
-<entry key="27" type="xstring" value="Exter Cond"/>
-<entry key="28" type="xstring" value="Foundation"/>
-<entry key="29" type="xstring" value="Bsmt Qual"/>
-<entry key="30" type="xstring" value="Bsmt Cond"/>
-<entry key="31" type="xstring" value="Bsmt Exposure"/>
-<entry key="32" type="xstring" value="BsmtFin Type 1"/>
-<entry key="33" type="xstring" value="BsmtFin SF 1"/>
-<entry key="34" type="xstring" value="BsmtFin Type 2"/>
-<entry key="35" type="xstring" value="BsmtFin SF 2"/>
-<entry key="36" type="xstring" value="Bsmt Unf SF"/>
-<entry key="37" type="xstring" value="Total Bsmt SF"/>
-<entry key="38" type="xstring" value="Heating"/>
-<entry key="39" type="xstring" value="Heating QC"/>
-<entry key="40" type="xstring" value="Central Air"/>
-<entry key="41" type="xstring" value="Electrical"/>
-<entry key="42" type="xstring" value="1st Flr SF"/>
-<entry key="43" type="xstring" value="2nd Flr SF"/>
-<entry key="44" type="xstring" value="Low Qual Fin SF"/>
-<entry key="45" type="xstring" value="Bsmt Full Bath"/>
-<entry key="46" type="xstring" value="Bsmt Half Bath"/>
-<entry key="47" type="xstring" value="Full Bath"/>
-<entry key="48" type="xstring" value="Half Bath"/>
-<entry key="49" type="xstring" value="Bedroom AbvGr"/>
-<entry key="50" type="xstring" value="Kitchen AbvGr"/>
-<entry key="51" type="xstring" value="Kitchen Qual"/>
-<entry key="52" type="xstring" value="TotRms AbvGrd"/>
-<entry key="53" type="xstring" value="Functional"/>
-<entry key="54" type="xstring" value="Fireplaces"/>
-<entry key="55" type="xstring" value="Fireplace Qu"/>
-<entry key="56" type="xstring" value="Garage Type"/>
-<entry key="57" type="xstring" value="Garage Yr Blt"/>
-<entry key="58" type="xstring" value="Garage Finish"/>
+<entry key="18" type="xstring" value="Year Remod/Add"/>
+<entry key="19" type="xstring" value="Roof Style"/>
+<entry key="20" type="xstring" value="Roof Matl"/>
+<entry key="21" type="xstring" value="Exterior 1st"/>
+<entry key="22" type="xstring" value="Exterior 2nd"/>
+<entry key="23" type="xstring" value="Mas Vnr Type"/>
+<entry key="24" type="xstring" value="Mas Vnr Area"/>
+<entry key="25" type="xstring" value="Exter Qual"/>
+<entry key="26" type="xstring" value="Exter Cond"/>
+<entry key="27" type="xstring" value="Foundation"/>
+<entry key="28" type="xstring" value="Bsmt Qual"/>
+<entry key="29" type="xstring" value="Bsmt Cond"/>
+<entry key="30" type="xstring" value="Bsmt Exposure"/>
+<entry key="31" type="xstring" value="BsmtFin Type 1"/>
+<entry key="32" type="xstring" value="BsmtFin SF 1"/>
+<entry key="33" type="xstring" value="BsmtFin Type 2"/>
+<entry key="34" type="xstring" value="BsmtFin SF 2"/>
+<entry key="35" type="xstring" value="Bsmt Unf SF"/>
+<entry key="36" type="xstring" value="Total Bsmt SF"/>
+<entry key="37" type="xstring" value="Heating"/>
+<entry key="38" type="xstring" value="Heating QC"/>
+<entry key="39" type="xstring" value="Central Air"/>
+<entry key="40" type="xstring" value="Electrical"/>
+<entry key="41" type="xstring" value="1st Flr SF"/>
+<entry key="42" type="xstring" value="2nd Flr SF"/>
+<entry key="43" type="xstring" value="Low Qual Fin SF"/>
+<entry key="44" type="xstring" value="Bsmt Full Bath"/>
+<entry key="45" type="xstring" value="Bsmt Half Bath"/>
+<entry key="46" type="xstring" value="Full Bath"/>
+<entry key="47" type="xstring" value="Half Bath"/>
+<entry key="48" type="xstring" value="Bedroom AbvGr"/>
+<entry key="49" type="xstring" value="Kitchen AbvGr"/>
+<entry key="50" type="xstring" value="Kitchen Qual"/>
+<entry key="51" type="xstring" value="TotRms AbvGrd"/>
+<entry key="52" type="xstring" value="Functional"/>
+<entry key="53" type="xstring" value="Fireplaces"/>
+<entry key="54" type="xstring" value="Fireplace Qu"/>
+<entry key="55" type="xstring" value="Garage Type"/>
+<entry key="56" type="xstring" value="Garage Yr Blt"/>
+<entry key="57" type="xstring" value="Garage Finish"/>
+<entry key="58" type="xstring" value="Garage Cars"/>
 <entry key="59" type="xstring" value="Garage Area"/>
 <entry key="60" type="xstring" value="Garage Qual"/>
 <entry key="61" type="xstring" value="Garage Cond"/>
@@ -140,6 +140,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="81621a6f-9364-40e4-8fdf-13fa0154dd3b"/>
+<entry key="file_store_id" type="xstring" value="24340546-1928-4feb-856d-7e3807d0b62b"/>
 </config>
 </config>
