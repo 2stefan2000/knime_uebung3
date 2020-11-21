@@ -4,3 +4,96 @@ java.io.IOException: Downloaded file doesn't contain node recommendation data.
 	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
 	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-21 13:03:00,560 : WARN  : KNIME-Worker-34-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:03:34,648 : WARN  : KNIME-Worker-38-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:04:04,479 : WARN  : KNIME-Worker-36-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:04:31,169 : WARN  : KNIME-Worker-34-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:04:49,289 : WARN  : KNIME-Worker-43-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:05:06,489 : WARN  : KNIME-Worker-43-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:05:38,003 : WARN  : KNIME-Worker-44-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:06:20,805 : WARN  : KNIME-Worker-38-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:07:01,339 : WARN  : KNIME-Worker-34-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:07:29,056 : WARN  : KNIME-Worker-34-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:08:12,152 : WARN  : KNIME-Worker-44-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:08:36,272 : WARN  : KNIME-Worker-35-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:08:59,219 : WARN  : KNIME-Worker-34-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:10:52,911 : WARN  : KNIME-Worker-41-Missing Value 0:4 :  : Node : Missing Value : 0:4 : Column "Exter Qual" still contains missing values.
+2020-11-21 13:10:53,209 : ERROR : KNIME-Worker-42-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:150)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-11-21 13:11:04,734 : ERROR : KNIME-Worker-38-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:150)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-11-21 13:11:46,175 : ERROR : KNIME-Worker-40-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:150)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-11-21 13:12:35,758 : WARN  : KNIME-Worker-35-Missing Value 0:4 :  : Node : Missing Value : 0:4 : Column "Exter Qual" still contains missing values.
+2020-11-21 13:12:35,824 : WARN  : KNIME-Worker-36-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : The following columns are redundant and will not contribute to the model: Ex, Fa, Exter Qual^2. Coefficient statistics will not be accurate and contain missing information.
+2020-11-21 13:13:22,551 : WARN  : KNIME-Worker-42-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : The following columns are redundant and will not contribute to the model: Fa, Overall Qual^2, Garage Cars^2. Coefficient statistics will not be accurate and contain missing information.
+2020-11-21 13:13:52,640 : WARN  : KNIME-Worker-40-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:13:52,775 : WARN  : KNIME-Worker-45-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : The following columns are redundant and will not contribute to the model: Fa, Exter Qual^2. Coefficient statistics will not be accurate and contain missing information.
+2020-11-21 13:14:24,865 : WARN  : KNIME-Worker-37-Missing Value 0:4 :  : Node : Missing Value : 0:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2020-11-21 13:14:25,069 : WARN  : KNIME-Worker-35-Linear Regression Learner 0:7 :  : Node : Linear Regression Learner : 0:7 : The following columns are redundant and will not contribute to the model: Ex, Fa, Exter Qual^2. Coefficient statistics will not be accurate and contain missing information.
+2020-11-21 13:17:19,528 : WARN  : main :  : Node : Numeric Outliers : 0:16 : Auto configuration: Outlier Selection uses all suitable columns (in total 4).
+2020-11-21 16:07:05,002 : ERROR : main :  : OpenInteractiveWebViewAction : Scatter Plot : 0:17 : JS view set in preferences (org.knime.workbench.editor2.WizardNodeView) can't be loaded. Switching to default.
+2020-11-21 16:07:37,213 : ERROR : main :  : OpenInteractiveWebViewAction : Scatter Plot : 0:17 : JS view set in preferences (org.knime.workbench.editor2.WizardNodeView) can't be loaded. Switching to default.
