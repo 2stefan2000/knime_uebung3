@@ -14,8 +14,8 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="Overall Qual"/>
-<entry key="1" type="xstring" value="Gr Liv Area"/>
-<entry key="2" type="xstring" value="Garage Cars"/>
+<entry key="1" type="xstring" value="Year Built"/>
+<entry key="2" type="xstring" value="Gr Liv Area"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="1"/>
@@ -70,6 +70,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="90b1c5dc-3adf-4616-b976-d6ab79bdb156"/>
+<entry key="file_store_id" type="xstring" value="2b51acaf-48e3-48d4-a71f-1a96e418c68b"/>
 </config>
 </config>
